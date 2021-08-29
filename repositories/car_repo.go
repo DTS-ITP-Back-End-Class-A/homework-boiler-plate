@@ -1,13 +1,8 @@
-package repositories
-
-import (
-	"projectstructuring/models"
-)
-
-// func RepoCar(c *fiber.Ctx) error {
-// 	return c.SendString("Masuk repo")
-// }
+package repo
+import "homework-boiler-plate/models"
 
 func RepoGetCar() (result []models.Car, err error) {
+	// this repo for get student
 	return result, nil
 }
+

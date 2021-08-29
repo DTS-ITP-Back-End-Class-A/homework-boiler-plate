@@ -1,7 +1,6 @@
 package main
-
-import "projectstructuring/cmd"
+import "homework-boiler-plate/cmd"
 
 func main() {
-	cmd.Run()
+cmd.Run()
 }
