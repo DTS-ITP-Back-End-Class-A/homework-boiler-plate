@@ -1,6 +1,6 @@
 package main
 
-import "projectstructuring/cmd"
+import "tugasgolang/cmd"
 
 func main() {
 	cmd.Run()

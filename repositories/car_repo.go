@@ -1,13 +1,15 @@
 package repositories
 
 import (
-	"projectstructuring/models"
+	"fmt"
+	"tugasgolang/models"
 )
 
-// func RepoCar(c *fiber.Ctx) error {
-// 	return c.SendString("Masuk repo")
+// func Repo() {
+// 	fmt.Println("masuk repo")
 // }
 
 func RepoGetCar() (result []models.Car, err error) {
+	fmt.Println("masuk Repo")
 	return result, nil
 }

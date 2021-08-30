@@ -10,5 +10,5 @@ type Car struct {
 	Country   string
 	Engine    string
 	CreatedAt time.Time
-	UpdateAt  time.Time
+	UpadateAt time.Time
 }

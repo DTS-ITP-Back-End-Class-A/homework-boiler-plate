@@ -1,15 +1,17 @@
 package services
 
 import (
-	"projectstructuring/models"
-	repo "projectstructuring/repositories"
+	"fmt"
+	"tugasgolang/models"
+	"tugasgolang/repositories"
 )
 
-// func ServiceGetCar(c *fiber.Ctx) error {
-// 	return c.SendString("Masuk service")
+// func Service() {
+// 	fmt.Println("masuk service")
 // }
 
 func ServiceGetCar() (result models.Response) {
-	repo.RepoGetCar()
+	fmt.Println("masuk Service")
+	repositories.RepoGetCar()
 	return result
 }

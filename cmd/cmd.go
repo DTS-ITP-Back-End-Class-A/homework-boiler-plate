@@ -2,10 +2,12 @@ package cmd
 
 import (
 	"fmt"
-	"projectstructuring/routes"
+	"tugasgolang/routes"
+	"tugasgolang/services"
 )
 
 func Run() {
-	fmt.Println("Masuk cmd")
-	routes.Route()
+	fmt.Println("masuk cmd")
+	routes.Routes()
+	services.ServiceGetCar()
 }

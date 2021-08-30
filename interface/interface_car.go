@@ -1,7 +1,7 @@
 package interfaces
 
-import "projectstructuring/models"
+import "tugasgolang/models"
 
-type ServiceCar interface {
+type Service interface {
 	ServiceGetCar() (result models.Response)
 }
